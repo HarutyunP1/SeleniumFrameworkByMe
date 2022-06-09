@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9006d742-d7e3-429a-9d6f-82e8fced01a8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A2BVTmzM7clpePdAX2kzuxJzkH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Harutyun_Petrosyan/IdeaProjects/SeleniumFramework/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Harutyun_Petrosyan\IdeaProjects\SeleniumFramework\test-output\reports" />
+      <recent name="C:\Users\Harutyun_Petrosyan\IdeaProjects\SeleniumFramework\test-output" />
+      <recent name="C:\Users\Harutyun_Petrosyan\IdeaProjects\SeleniumFramework\src\test" />
+      <recent name="C:\Users\Harutyun_Petrosyan\IdeaProjects\SeleniumFramework\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Harutyun_Petrosyan/IdeaProjects/SeleniumFramework/src/test/testSuite/tests.xml">
+    <configuration name="C:/Users/Harutyun_Petrosyan/IdeaProjects/SeleniumFramework/src/test/testSuite/tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testSuite/tests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAccountLoginTest.test_method1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.MyAccountLoginTest" />
+      <option name="METHOD_NAME" value="test_method1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAccountLoginTest.test_method2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.MyAccountLoginTest" />
+      <option name="METHOD_NAME" value="test_method2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Harutyun_Petrosyan/IdeaProjects/SeleniumFramework/src/test/testSuite/tests.xml" />
+        <item itemvalue="TestNG.MyAccountLoginTest.test_method1" />
+        <item itemvalue="TestNG.MyAccountLoginTest.test_method2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9006d742-d7e3-429a-9d6f-82e8fced01a8" name="Changes" comment="" />
+      <created>1654197823781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654197823781</updated>
+    </task>
+    <servers />
+  </component>
+</project>
