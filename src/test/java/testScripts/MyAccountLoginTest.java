@@ -15,6 +15,7 @@ public class MyAccountLoginTest extends TestBase {
     public void init() {
         myAccountPage = new MyAccountPage(eventDriver);
         myAccountPage.get();
+        System.out.println("hi");
 
     }
 
