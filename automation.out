@@ -19740,3 +19740,48 @@ Session ID: 3810f8b9a72ae7e04cc4f1e98ddd4138
 2022-06-09 13:06:742 INFO  ExtentListener:77 - test_method1 test is failed.
 2022-06-09 13:06:746 INFO  ExtentListener:41 - I am in onAfterClass method testScripts.MyAccountLoginTest
 2022-06-09 13:06:36 INFO  ExtentListener:54 - I am in onFinish method TestGroup
+2022-07-22 15:07:914 INFO  ExtentListener:49 - I am in onStart method SeleniumFramework
+2022-07-22 15:07:11 INFO  TestBase:76 - Initialize Web driver: 2128195220
+2022-07-22 15:07:13 INFO  WaitHelper:30 - WaitHelper object created..
+2022-07-22 15:07:18 INFO  WaitHelper:55 - Implicit Wait has been set to: 30
+2022-07-22 15:07:27 INFO  WaitHelper:146 - waiting for page to load for : 45 seconds
+2022-07-22 15:07:32 INFO  WaitHelper:148 - page is loaded
+2022-07-22 15:07:33 INFO  TestBase:80 - Set ImplicitWait and pageLoadTime: 2128195220
+2022-07-22 15:07:464 INFO  ExtentListener:31 - I am in on BeforeClass method testScripts.MyAccountLoginTest
+2022-07-22 15:07:492 INFO  WaitHelper:30 - WaitHelper object created..
+2022-07-22 15:07:493 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2022-07-22 15:07:493 INFO  JavaScriptHelper:18 - JavaScriptHelper has been initialised
+2022-07-22 15:07:494 INFO  ActionsHelper:18 - ActionsHelper has been initialised
+2022-07-22 15:07:494 INFO  LoadableComponent:17 - get method is calling 
+2022-07-22 15:07:12 INFO  ExtentListener:44 - get base64 screenshot method is called
+2022-07-22 15:07:146 INFO  ExtentListener:65 - test_method1I am in onTestStart method 
+2022-07-22 15:07:148 INFO  ExtentListener:86 - test_method1 test is skipped.
+2022-07-22 15:07:156 INFO  ExtentListener:41 - I am in onAfterClass method testScripts.MyAccountLoginTest
+2022-07-22 15:07:863 INFO  ExtentListener:54 - I am in onFinish method SeleniumFramework
+2022-07-30 14:07:255 INFO  ExtentListener:49 - I am in onStart method SeleniumFramework
+2022-07-30 14:07:50 INFO  TestBase:76 - Initialize Web driver: 834824701
+2022-07-30 14:07:52 INFO  WaitHelper:30 - WaitHelper object created..
+2022-07-30 14:07:57 INFO  WaitHelper:55 - Implicit Wait has been set to: 30
+2022-07-30 14:07:67 INFO  WaitHelper:146 - waiting for page to load for : 45 seconds
+2022-07-30 14:07:71 INFO  WaitHelper:148 - page is loaded
+2022-07-30 14:07:72 INFO  TestBase:80 - Set ImplicitWait and pageLoadTime: 834824701
+2022-07-30 14:07:246 INFO  ExtentListener:31 - I am in on BeforeClass method testScripts.MyAccountLoginTest
+2022-07-30 14:07:267 INFO  WaitHelper:30 - WaitHelper object created..
+2022-07-30 14:07:267 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2022-07-30 14:07:268 INFO  JavaScriptHelper:18 - JavaScriptHelper has been initialised
+2022-07-30 14:07:268 INFO  ActionsHelper:18 - ActionsHelper has been initialised
+2022-07-30 14:07:269 INFO  LoadableComponent:17 - get method is calling 
+2022-07-30 14:07:869 INFO  LoadableComponent:20 - browser is opening http://practice.automationtesting.in/my-account/ this url
+2022-07-30 14:07:878 INFO  EventHandler:77 - Just before finding element By.cssSelector: [name='login'][type='submit']
+2022-07-30 14:07:900 INFO  JavaScriptHelper:129 - element is clicked: [[ChromeDriver: chrome on WINDOWS (858108e2ccbd9884adea339cb1c90602)] -> css selector: [name='login'][type='submit']]
+2022-07-30 14:07:901 INFO  EventHandler:77 - Just before finding element By.cssSelector: [name='login'][type='submit']
+2022-07-30 14:07:240 INFO  ExtentListener:44 - get base64 screenshot method is called
+2022-07-30 14:07:397 INFO  ExtentListener:65 - test_method1I am in onTestStart method 
+2022-07-30 14:07:398 INFO  EventHandler:77 - Just before finding element By.id: username
+2022-07-30 14:07:498 INFO  EventHandler:77 - Just before finding element By.id: password
+2022-07-30 14:07:659 INFO  EventHandler:77 - Just before finding element By.cssSelector: [name='login'][type='submit']
+2022-07-30 14:07:666 INFO  JavaScriptHelper:129 - element is clicked: [[ChromeDriver: chrome on WINDOWS (858108e2ccbd9884adea339cb1c90602)] -> css selector: [name='login'][type='submit']]
+2022-07-30 14:07:666 INFO  EventHandler:77 - Just before finding element By.cssSelector: [name='login'][type='submit']
+2022-07-30 14:07:560 INFO  ExtentListener:77 - test_method1 test is failed.
+2022-07-30 14:07:564 INFO  ExtentListener:41 - I am in onAfterClass method testScripts.MyAccountLoginTest
+2022-07-30 14:07:560 INFO  ExtentListener:54 - I am in onFinish method SeleniumFramework

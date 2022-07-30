@@ -26,7 +26,6 @@ public class BasketPage extends BasePage {
 
     @Override
     public void load() {
-
     }
 
     @Override
