@@ -26,15 +26,17 @@ public class MyAccountLoginTest extends TestBase {
 
 
 
-    @Test(description = "first description")
-    public void test_method1() {
-        fillInLoginFields("Harut","Petrosyan");
-        Assert.assertTrue(false);
-    }
-//
-//    @Test()
-//    public void test_method2() {
+//    @Test(description = "first description")
+//    public void test_method1() {
+//        fillInLoginFields("Harut","Petrosyan");
+//        Assert.assertTrue(false);
 //    }
+
+    @Test()
+    public void test_method2() {
+          Assert.assertTrue(true);
+
+    }
 
 
     private void fillInLoginFields(String username, String password) {
