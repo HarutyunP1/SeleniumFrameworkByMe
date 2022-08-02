@@ -1,13 +1,16 @@
 package testScripts;
 
 import helper.DataProviders.DProvider;
+import helper.logger.LoggerHelper;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageObject.MyAccountPage;
+import utils.LoadableComponent;
 
-public class MyAccountLoginTest {
+public class MyAccountLoginTest extends TestBase{
 
 //    private MyAccountPage myAccountPage;
 //
@@ -36,6 +39,9 @@ public class MyAccountLoginTest {
     public void test_method2() {
     //   fillInLoginFields("Harut","Petrosyan");
        Assert.assertTrue(true);
+       Logger log = LoggerHelper.getLogger(MyAccountLoginTest.class);
+        System.out.println(System.getProperty("browser"));
+        log.info(System.getProperty("browser"));
 
 
     }
