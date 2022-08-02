@@ -32,7 +32,7 @@ public class MyAccountLoginTest {
 //        Assert.assertTrue(false);
 //    }
 
-    @Test(description = "This is our test method")
+    @Test(description = "This is our test method new")
     public void test_method2() {
     //   fillInLoginFields("Harut","Petrosyan");
        Assert.assertTrue(true);
