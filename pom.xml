@@ -14,9 +14,7 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <configuration>
-                        <suiteXmlFiles>
-                            <suiteXmlFile>src/test/testSuite/tests.xml</suiteXmlFile>
-                        </suiteXmlFiles>
+
                         <systemProperties>
                             <property>
                                 <name>allure.results.directory</name>
