@@ -7,10 +7,12 @@
 
     <groupId>org.example</groupId>
     <artifactId>SeleniumFramework</artifactId>
+
+
     <properties>
+
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
-
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.6</aspectj.version>
         <selenium-version>4.0.0-beta-3</selenium-version>
@@ -30,6 +32,9 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>src/test/testSuite/tests.xml</suiteXmlFile>
                         </suiteXmlFiles>
+                        <systemPropertyVariables>
+                            <allure.results.directory>/target/allure-results</allure.results.directory>
+                        </systemPropertyVariables>
                     </configuration>
                 </plugin>
             </plugins>
