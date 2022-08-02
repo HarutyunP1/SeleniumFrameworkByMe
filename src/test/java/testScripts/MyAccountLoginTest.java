@@ -32,9 +32,10 @@ public class MyAccountLoginTest extends TestBase {
 //        Assert.assertTrue(false);
 //    }
 
-    @Test()
+    @Test(description = "This is our test method")
     public void test_method2() {
-          Assert.assertTrue(true);
+       fillInLoginFields("Harut","Petrosyan");
+       Assert.assertTrue(true);
 
     }
 

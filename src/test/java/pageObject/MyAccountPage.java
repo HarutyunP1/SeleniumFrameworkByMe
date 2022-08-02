@@ -1,6 +1,7 @@
 package pageObject;
 
 import helper.browserConfiguration.config.PropertyReader;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,10 +15,15 @@ public class MyAccountPage extends BasePage<MyAccountPage> {
     private WebElement loginButton;
     @FindBy(id = "menu-item-50")
     private WebElement myAccountMenuItem;
+
+    public MyAccountPage(WebDriver driver) {
+        super(driver);
+    }
+
     @Override
     public void load() {
         driver.get(PropertyReader.getUrl("myAccountPage"));
-        log.info("browser is opening "+PropertyReader.getUrl("myAccountPage")+" this url");
+        log.info("browser is opening " + PropertyReader.getUrl("myAccountPage") + " this url");
     }
 
     @Override
@@ -25,13 +31,13 @@ public class MyAccountPage extends BasePage<MyAccountPage> {
         log.info("page is Loaded");
 
     }
-    public MyAccountPage(WebDriver driver) {
-        super(driver);
-    }
 
+    @Step("this is our fill username step {0} ...STEP")
     public void fillInUsername(String username) {
         usernameField.sendKeys(username);
     }
+
+    @Step("this is our fill password step {1}...STEP")
     public void fillInPassword(String password) {
         passwordField.sendKeys(password);
     }
@@ -42,7 +48,7 @@ public class MyAccountPage extends BasePage<MyAccountPage> {
         javaScriptHelper.clickElement(loginButton);
     }
 
-    public boolean isPresentMyAccountMenuItem(){
+    public boolean isPresentMyAccountMenuItem() {
         return myAccountMenuItem.isDisplayed();
     }
 
