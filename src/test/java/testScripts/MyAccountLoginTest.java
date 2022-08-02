@@ -7,22 +7,22 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageObject.MyAccountPage;
 
-public class MyAccountLoginTest extends TestBase {
+public class MyAccountLoginTest {
 
-    private MyAccountPage myAccountPage;
-
-    @BeforeClass
-    public void init() {
-        myAccountPage = new MyAccountPage(eventDriver);
-//        myAccountPage.get();
-        System.out.println("hi");
-
-    }
-
-    @BeforeMethod
-    public void myAccountPage() {
-       // myAccountPage.clickOnLoginButton();
-    }
+//    private MyAccountPage myAccountPage;
+//
+//    @BeforeClass
+//    public void init() {
+//        myAccountPage = new MyAccountPage(eventDriver);
+////        myAccountPage.get();
+//        System.out.println("hi");
+//
+//    }
+//
+//    @BeforeMethod
+//    public void myAccountPage() {
+//       // myAccountPage.clickOnLoginButton();
+//    }
 
 
 
@@ -40,13 +40,13 @@ public class MyAccountLoginTest extends TestBase {
     }
 
 
-    private void fillInLoginFields(String username, String password) {
-        if (!username.isEmpty())
-            myAccountPage.fillInUsername(username);
-        if (!password.isEmpty())
-            myAccountPage.fillInPassword(password);
-        myAccountPage.clickOnLoginButton();
-    }
+//    private void fillInLoginFields(String username, String password) {
+//        if (!username.isEmpty())
+//            myAccountPage.fillInUsername(username);
+//        if (!password.isEmpty())
+//            myAccountPage.fillInPassword(password);
+//        myAccountPage.clickOnLoginButton();
+//    }
 
 //    @Test(description = "1-6. Log-in with invalid  username and password.", dataProviderClass = DProvider.class,
 //            dataProvider = "incorrect-usernames-passwords")

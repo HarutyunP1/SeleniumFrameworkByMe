@@ -22,7 +22,6 @@
                                 <name>allure.results.directory</name>
                                 <value>${project.build.directory}/allure-results</value>
                             </property>
-
                         </systemProperties>
                     </configuration>
                 </plugin>
