@@ -17,7 +17,12 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>src/test/testSuite/tests.xml</suiteXmlFile>
                         </suiteXmlFiles>
-
+                        <systemProperties>
+                            <property>
+                                <name>allure.results.directory</name>
+                                <value>C:\ProgramData\Jenkins\.jenkins\workspace\Test1\target\allure-results</value>
+                            </property>
+                        </systemProperties>
                     </configuration>
                 </plugin>
             </plugins>
@@ -30,6 +35,7 @@
                     <source>14</source>
                     <target>14</target>
                 </configuration>
+
             </plugin>
         </plugins>
     </build>
